@@ -6,6 +6,14 @@
   overflow-y: scroll;
 }
 
+.cart-items-checkout {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-height: 8rem;
+  overflow-y: scroll;
+}
+
 .total {
   display: flex;
   justify-content: space-between;
@@ -43,4 +51,16 @@
 .actions .button {
   background-color: #8a2b06;
   color: white;
+}
+
+.success {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 40%;
+  width: 40%;
+}
+
+.center {
+  text-align: center;
 }
